@@ -25,7 +25,7 @@ def leer_txt(text_basis):
 A = []
 b = []
 
-with open("/Users/eduardomv/Desktop/A C T U A R Í A/3er SEMESTRE/Métodos Numéricos/Gauss Seidel/Sistema con Pivoteo.txt", "r") as f:
+with open("\Users\Ricardo Rueda\Pivot.txt", "r") as f:
     flag = 0
     for line in f:
         if line.strip() != "X":
